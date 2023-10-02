@@ -29,9 +29,9 @@ function tocaSomSho(){
 document.querySelector(".tecla_sho").onclick = tocaSomSho;
 
 function tocaSomTatsu(){
-    document.querySelector("#som_tecla_tatsumaki").play();
+    document.querySelector("#som_tecla_tatsu").play();
 }
-document.querySelector(".tecla_tatsumaki").onclick = tocaSomTatsu;
+document.querySelector(".tecla_tatsu").onclick = tocaSomTatsu;
 
 function tocaSomSonic(){
     document.querySelector("#som_tecla_sonic").play();
@@ -39,6 +39,6 @@ function tocaSomSonic(){
 document.querySelector(".tecla_sonic").onclick = tocaSomSonic;
 
 function tocaSomYoga(){
-    document.querySelector("#som_tecla_yogafire").play();
+    document.querySelector("#som_tecla_yoga").play();
 }
 document.querySelector(".tecla_yogafire").onclick = tocaSomYoga;
