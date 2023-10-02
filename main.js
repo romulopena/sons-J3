@@ -41,4 +41,4 @@ document.querySelector(".tecla_sonic").onclick = tocaSomSonic;
 function tocaSomYoga(){
     document.querySelector("#som_tecla_yoga").play();
 }
-document.querySelector(".tecla_yogafire").onclick = tocaSomYoga;
+document.querySelector(".tecla_yoga").onclick = tocaSomYoga;
