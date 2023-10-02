@@ -7,3 +7,8 @@ function tocaSomRound(){
     document.querySelector("#som_tecla_round").play();
 }
 document.querySelector(".tecla_round").onclick = tocaSomRound;
+
+function tocaSomOne(){
+    document.querySelector("#som_tecla_one").play();
+}
+document.querySelector(".tecla_one").onclick = tocaSomOne;
