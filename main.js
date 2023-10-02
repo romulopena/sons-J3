@@ -17,3 +17,8 @@ function tocaSomFight(){
     document.querySelector("#som_tecla_fight").play();
 }
 document.querySelector(".tecla_fight").onclick = tocaSomFight;
+
+function tocaSomRadouken(){
+    document.querySelector("#som_tecla_radouken").play();
+}
+document.querySelector(".tecla_radouken").onclick = tocaSomRadouken;
