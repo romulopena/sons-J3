@@ -12,3 +12,8 @@ function tocaSomOne(){
     document.querySelector("#som_tecla_one").play();
 }
 document.querySelector(".tecla_one").onclick = tocaSomOne;
+
+function tocaSomFight(){
+    document.querySelector("#som_tecla_fight").play();
+}
+document.querySelector(".tecla_fight").onclick = tocaSomFight;
