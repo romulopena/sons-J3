@@ -22,3 +22,13 @@ function tocaSomRadouken(){
     document.querySelector("#som_tecla_radouken").play();
 }
 document.querySelector(".tecla_radouken").onclick = tocaSomRadouken;
+
+function tocaSomShoryuken(){
+    document.querySelector("#som_tecla_shoryuken").play();
+}
+document.querySelector(".tecla_shoryuken").onclick = tocaSomShoryuken;
+
+function tocaSomTatsu(){
+    document.querySelector("#som_tecla_tatsumaki").play();
+}
+document.querySelector(".tecla_tatsu").onclick = tocaSomTatsu;
