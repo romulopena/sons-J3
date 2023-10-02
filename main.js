@@ -31,4 +31,4 @@ document.querySelector(".tecla_shoryuken").onclick = tocaSomShoryuken;
 function tocaSomTatsu(){
     document.querySelector("#som_tecla_tatsumaki").play();
 }
-document.querySelector(".tecla_tatsu").onclick = tocaSomTatsu;
+document.querySelector(".tecla_tatsumaki").onclick = tocaSomTatsu;
