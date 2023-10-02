@@ -6,4 +6,4 @@ document.querySelector(".tecla_capcom").onclick = tocaSomCapcom;
 function tocaSomRound(){
     document.querySelector("#som_tecla_round").play();
 }
-document.querySelector(".tecla_capcom").onclick = tocaSomRound;
+document.querySelector(".tecla_round").onclick = tocaSomRound;
