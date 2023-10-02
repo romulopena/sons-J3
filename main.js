@@ -1,4 +1,4 @@
-function tocaSomRisada(){
-    document.querySelector("#som_tecla_risada").play();
+function tocaSomCapcom(){
+    document.querySelector("#som_tecla_capcom").play();
 }
-document.querySelector(".tecla_risada").onclick = tocaSomRisada;
+document.querySelector(".tecla_capcom").onclick = tocaSomCapcom;
