@@ -44,7 +44,7 @@ function tocaSomYoga(){
 }
 document.querySelector(".tecla_yoga").onclick = tocaSomYoga;
 */
-let contador = 1;
+let contador = 0;
 
 while (contador < 9) {
     const listaDeTeclas = document.querySelectorAll(".tecla");
