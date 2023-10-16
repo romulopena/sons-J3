@@ -44,7 +44,13 @@ function tocaSomYoga(){
 }
 document.querySelector(".tecla_yoga").onclick = tocaSomYoga;
 */
+let contador = 1;
 
-const listaDeTeclas = document.querySelectorAll(".tecla");
+while (contador < 9) {
+    const listaDeTeclas = document.querySelectorAll(".tecla");
+    listaDeTeclas[contador].onclick = TocaSomCapcom;
+    contador = + 1;
+}
 
-listaDeTeclas[0].onclick = TocaSomCapcom;
+
+
