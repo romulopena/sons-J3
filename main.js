@@ -3,6 +3,7 @@ function tocaSomCapcom(){
 }
 document.querySelector(".tecla_capcom").onclick = tocaSomCapcom;
 
+/*
 function tocaSomRound(){
     document.querySelector("#som_tecla_round").play();
 }
@@ -42,3 +43,8 @@ function tocaSomYoga(){
     document.querySelector("#som_tecla_yoga").play();
 }
 document.querySelector(".tecla_yoga").onclick = tocaSomYoga;
+*/
+
+const listaDeTeclas = document.querySelectorAll(".tecla");
+
+listaDeTeclas[0].onclick = TocaSomCapcom;
