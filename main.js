@@ -50,6 +50,7 @@ while (contador < 9) {
     const listaDeTeclas = document.querySelectorAll(".tecla");
     listaDeTeclas[contador].onclick = TocaSomCapcom;
     contador = contador + 1;
+    console.log(contador);
 }
 
 
