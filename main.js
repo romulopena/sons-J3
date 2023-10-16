@@ -49,7 +49,7 @@ let contador = 1;
 while (contador < 9) {
     const listaDeTeclas = document.querySelectorAll(".tecla");
     listaDeTeclas[contador].onclick = TocaSomCapcom;
-    contador = + 1;
+    contador = contador + 1;
 }
 
 
